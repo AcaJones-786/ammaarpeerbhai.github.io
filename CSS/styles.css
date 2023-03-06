@@ -1,5 +1,9 @@
+.main{
+    background-image: url(/images/image.png); 
+}
 .header{
     padding-top: 4vw;
+    height: 1000px;
 }
 .intro{
     display: inline-block;
