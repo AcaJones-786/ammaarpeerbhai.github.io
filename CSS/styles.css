@@ -1,10 +1,33 @@
-.main{
-    background-image: url(/images/image.png); 
+@media (min-width: 750px) {
+  .banner { grid-template-columns: repeat(2, auto);}
 }
-.header{
+
+.wrapper{
+    
+}
+.main{
+    margin: 3em;
+    /*background-image: url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+.banner{
+    display: grid;
+    margin: 0;
     padding-top: 4vw;
-    height: 1000px;
+}
+#name{
+   font-size: 7vh; 
 }
 .intro{
     display: inline-block;
+}
+#intro h2{
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+#intro h3{
+    margin-top: 4vh;
+}
+#me_image{
 }
