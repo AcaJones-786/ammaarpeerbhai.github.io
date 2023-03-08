@@ -9,13 +9,10 @@
 
 .wrapper{
       
-        
+
 }
 .main{
     margin: 3em;
-    /*background-image: url(/images/image.png);
-    background-repeat: no-repeat;
-    background-size: contain;*/
 }
 .banner{
     display: grid;
@@ -45,4 +42,7 @@
 }
 ul{
     list-style: none;
+}
+.work_img{
+    height: 3cm;
 }
