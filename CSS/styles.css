@@ -1,6 +1,7 @@
 @media (min-width: 750px) {
   .banner { grid-template-columns: repeat(2, auto);}
   .main {margin: 1em;}
+  #intro{padding: 0; margin: 0;}
 }
 @media (min-width: 1500px) {
     .banner { grid-template-columns: repeat(2, auto);}
@@ -45,4 +46,7 @@ ul{
 }
 .work_img{
     height: 15vw;
+}
+.languages{
+    font-size: 5vh;
 }
