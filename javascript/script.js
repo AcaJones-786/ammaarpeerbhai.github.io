@@ -1,4 +1,4 @@
-let counts=setInterval(updated);
+/*let counts=setInterval(updated);
 let average_mark=0;
 function updated(){
     var count= document.getElementById("counter");
@@ -8,4 +8,6 @@ function updated(){
     {
         clearInterval(counts);
     }
-}
+}*/
+
+
