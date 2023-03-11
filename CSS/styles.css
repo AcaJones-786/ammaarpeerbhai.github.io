@@ -6,19 +6,15 @@
 @media (min-width: 1500px) {
     .banner { grid-template-columns: repeat(2, auto);}
     .main {padding: 5em;}
-  }
-
-.wrapper{
-      
-
 }
 .main{
     margin: 3em;
+    border: outset 5px lightcyan;
 }
 .banner{
     display: grid;
     margin: 0;
-    padding-top: 4vw;
+    padding-top: 2;
 }
 #name{
    font-size: 6vh; 
@@ -50,3 +46,12 @@ ul{
 .languages{
     font-size: 5vh;
 }
+.education{
+    text-align: center;
+}
+#skills_section{
+    margin: 10vw 0;
+}
+/* #skill_row1, #skill_row2, #skill_row3{
+    display: none;
+} */
