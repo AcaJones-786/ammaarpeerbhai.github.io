@@ -49,6 +49,25 @@ ul{
 .education{
     text-align: center;
 }
-#skills_section{
-    margin: 10vw 0;
+#section_heading{
+    margin: 7vw 0;
+}
+
+.c-no{
+    height:150px;
+}
+.counter-Txt{
+    text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;
+}
+.counter-Txt span{
+    display:block; font-size:36px
+}
+@media(min-width:320px) and (max-width:767px){ 
+    .c-no{height:100%;}
+    .counter-Txt{margin-top:35px;}
+    .margin-bot-35{margin-bottom:35px;}
+}
+
+#avgCounter > #counter{
+    justify-content: center;
 }
