@@ -49,12 +49,8 @@ ul{
 .education{
     text-align: center;
 }
-#section_heading{
+.section_heading{
     margin: 7vw 0;
-}
-
-.c-no{
-    height:150px;
 }
 .counter-Txt{
     text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;
@@ -70,4 +66,10 @@ ul{
 
 #avgCounter > #counter{
     justify-content: center;
+}
+#school{
+    margin-top: 5vw;
+}
+.heading{
+    text-align: center;
 }
