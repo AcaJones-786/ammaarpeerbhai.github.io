@@ -27,3 +27,14 @@ $(window).scroll(function() {
     a = 1;
   }
 });
+
+
+
+
+
+$(document).ready(function() {
+  $(".share-btn").click(function(){
+    $(".share-btn").toggleClass("active")
+    $("ul").toggleClass("active")
+   })
+})
