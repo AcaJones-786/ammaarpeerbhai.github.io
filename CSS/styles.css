@@ -1,7 +1,8 @@
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
   .banner { grid-template-columns: repeat(2, auto);}
   .main {margin: 1em;}
   #intro{padding: 0; margin: 0;}
+  
 
 }
 @media(max-width: 500px){
@@ -17,6 +18,7 @@
     .main {padding: 5em;}
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rajdhani:wght@300&display=swap');
 .main{
     margin: 3em;
     border: outset 5px lightcyan;
@@ -201,3 +203,8 @@ animation: move 3s infinite;
     display: inline-flex;
     grid-gap: 2vw;
 }
+
+.btn_info{
+    width: 10rem;
+}
+
