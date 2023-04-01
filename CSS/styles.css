@@ -149,6 +149,15 @@ body{
     text-decoration: none;
     color: #c2928a;
 }
+.nav-item{
+    font-size: 20px;
+    text-decoration: overline;
+    color: #c5c4c4;
+}
+.nav-item:hover, .nav-link:hover{
+    text-decoration: underline;
+    color: #27272c;
+}
 /*sdfasdfasdfasdfasdfasdf*/
 
 
