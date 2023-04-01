@@ -1,10 +1,16 @@
 @media (min-width: 1000px) {
   .banner { grid-template-columns: repeat(2, auto);}
   .main{
-    margin: 3em;
+    margin: 1em;
     border: outset 5px lightcyan;
   }
   #intro{padding: 0; margin: 0;}
+  
+#contact_lists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
 }
 @media(max-width: 500px){
@@ -73,7 +79,7 @@ ul{
     font-size: 3em;
     text-align: center;
     left: 5vw;
-    margin-top: 20vh;
+    margin-top: 2cm;
 }
 .section_subheading{
     font-size: 1.5em;
@@ -104,9 +110,46 @@ ul{
 .heading{
     text-align: center;
 }
-
-
-
+/*sdfasdfasdfasdfasdfasdf*/
+.skills_container, .contact_container{
+    background-color: #27272c;
+    border-radius: 20px;
+}
+.purps{
+    color: #c97c5d;
+}
+.blues{
+    color: #b36a5e;
+}
+.languages, .lightheading{
+    color: #eed7c5;
+}
+body{
+    background-color: #F6E9DF;
+}
+.main{
+    background-color: #EEE2DF;
+}
+.edus{
+    border-radius: 20px;
+    background-color: #27272c;
+    padding-bottom: 2em;
+}
+.list-group .list-group-item{
+    background-color: #34343b;
+    color: #c2928a;
+}
+#contact_list > li ,a{
+    margin: 0 2em;
+}
+#contact_lists{
+    margin: 2em 0 3em 0;
+}
+.adjust{
+    text-decoration: none;
+    color: #c2928a;
+}
+/*sdfasdfasdfasdfasdfasdf*/
 
 
 .btnContact {
