@@ -1,8 +1,10 @@
 @media (min-width: 1000px) {
   .banner { grid-template-columns: repeat(2, auto);}
-  .main {margin: 1em;}
+  .main{
+    margin: 3em;
+    border: outset 5px lightcyan;
+  }
   #intro{padding: 0; margin: 0;}
-  
 
 }
 @media(max-width: 500px){
@@ -18,18 +20,17 @@
     .section_heading{
         margin-top: 1cm;
     }
+    .main{
+        margin: 1em;
+        border: outset 5px lightcyan;
+    }
+    
 }
 @media (min-width: 1500px) {
     .banner { grid-template-columns: repeat(2, auto);}
     .main {padding: 5em;}
-
 }
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rajdhani:wght@300&display=swap');
-
-.main{
-    margin: 3em;
-    border: outset 5px lightcyan;
-}
 .banner{
     display: grid;
     padding-top: 2;
