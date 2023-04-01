@@ -238,31 +238,31 @@ animation: move 3s infinite;
 }
 
 @keyframes move {
-0% {
-    transform: translateX(0);
-}
-50% {
-    transform: translateX(5px);
-}
-100% {
-    transform: translateX(0);
-}
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @keyframes box {
-0% {
-    box-shadow: #27272c;
-}
-50% {
-    box-shadow: 0 0 25px var(--clr);
-}
-100% {
-    box-shadow: #27272c;
-}
+    0% {
+        box-shadow: #27272c;
+    }
+    50% {
+        box-shadow: 0 0 25px var(--clr);
+    }
+    100% {
+        box-shadow: #27272c;
+    }
 }
   
 #contact{
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -274,13 +274,6 @@ animation: move 3s infinite;
     display: inline-flex;
     grid-gap: 2vw;
 }
-
-
-
-/* above is useless cursor code */
-
-
-
 .btn_info:hover{
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
