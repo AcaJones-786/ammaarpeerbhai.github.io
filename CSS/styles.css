@@ -110,7 +110,7 @@ ul{
 .heading{
     text-align: center;
 }
-/*sdfasdfasdfasdfasdfasdf*/
+
 .skills_container, .contact_container{
     background-color: #27272c;
     border-radius: 20px;
@@ -180,7 +180,6 @@ letter-spacing: 0.2rem;
 padding: 1.1rem 3.1rem;
 background: var(--clr);
 color: var(--clr);
-/* box-shadow: 0 0 35px var(--clr); */
 animation: box 3s infinite;
 }
 
