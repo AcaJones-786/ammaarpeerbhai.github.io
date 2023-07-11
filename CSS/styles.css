@@ -1,17 +1,16 @@
 @media (min-width: 1000px) {
-  .banner { grid-template-columns: repeat(2, auto);}
-  .main{
+    .banner { grid-template-columns: repeat(2, auto);}
+    .main{
     margin: 1em;
     border: outset 5px lightcyan;
-  }
-  #intro{padding: 0; margin: 0;}
+    }
+    #intro{padding: 0; margin: 0;}
   
-#contact_lists{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
+    #contact_lists{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
 }
 @media(max-width: 500px){
     #contact_list{
